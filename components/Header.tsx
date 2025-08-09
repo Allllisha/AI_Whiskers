@@ -103,27 +103,27 @@ export default function Header() {
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <div className="lg:hidden py-4 border-t border-gray-800">
-            <div className="flex flex-col space-y-4">
+          <div className="lg:hidden fixed left-0 right-0 top-20 bg-black/95 backdrop-blur-lg border-b border-gray-800 z-40">
+            <div className="flex flex-col py-6 px-6">
               <button 
                 onClick={() => {
                   document.getElementById('diagnosis')?.scrollIntoView({ behavior: 'smooth' })
                   setIsMobileMenuOpen(false)
                 }}
-                className="text-gray-300 hover:text-yellow-500 text-sm font-light tracking-wider transition-colors text-left"
+                className="text-gray-300 hover:text-yellow-500 text-base font-light tracking-wider transition-colors text-left py-3 border-b border-gray-800"
               >
                 診断する
               </button>
-              <span className="text-gray-600 text-sm font-light tracking-wider cursor-not-allowed opacity-50">
+              <span className="text-gray-600 text-base font-light tracking-wider cursor-not-allowed opacity-50 py-3 border-b border-gray-800">
                 ウイスキー図鑑
               </span>
-              <span className="text-gray-600 text-sm font-light tracking-wider cursor-not-allowed opacity-50">
+              <span className="text-gray-600 text-base font-light tracking-wider cursor-not-allowed opacity-50 py-3 border-b border-gray-800">
                 カクテル
               </span>
-              <span className="text-gray-600 text-sm font-light tracking-wider cursor-not-allowed opacity-50">
+              <span className="text-gray-600 text-base font-light tracking-wider cursor-not-allowed opacity-50 py-3 border-b border-gray-800">
                 蒸留所マップ
               </span>
-              <span className="text-gray-600 text-sm font-light tracking-wider cursor-not-allowed opacity-50">
+              <span className="text-gray-600 text-base font-light tracking-wider cursor-not-allowed opacity-50 py-3">
                 ガイド
               </span>
               <button 
@@ -138,7 +138,7 @@ export default function Header() {
                     }, 500)
                   }
                 }}
-                className="mt-4 w-full px-6 py-2 bg-gradient-to-r from-yellow-500 to-yellow-600 text-black font-medium text-sm rounded-full hover:from-yellow-600 hover:to-yellow-700 transition-all"
+                className="mt-6 w-full px-6 py-3 bg-gradient-to-r from-yellow-500 to-yellow-600 text-black font-medium text-base rounded-full hover:from-yellow-600 hover:to-yellow-700 transition-all"
               >
                 今すぐ診断
               </button>
