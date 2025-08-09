@@ -117,22 +117,8 @@ export default function ResultDisplay({ recommendations, onReset }: ResultDispla
           </div>
         </div>
 
-        {/* Whisky Image and Map */}
+        {/* Map */}
         <div className="space-y-8">
-          {/* Whisky Image */}
-          {selectedWhisky.imageUrl && (
-            <div className="glass-effect rounded-2xl p-8">
-              <h3 className="text-yellow-500 text-sm font-light tracking-widest mb-3">BOTTLE IMAGE</h3>
-              <div className="relative h-80 rounded-lg overflow-hidden">
-                <Image
-                  src={selectedWhisky.imageUrl}
-                  alt={selectedWhisky.name}
-                  fill
-                  className="object-cover"
-                />
-              </div>
-            </div>
-          )}
           
           {/* Distillery Location */}
           <div className="glass-effect rounded-2xl p-8">

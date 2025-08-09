@@ -86,28 +86,8 @@ export async function POST(request: NextRequest) {
       }
     }).sort((a: any, b: any) => b.matchScore - a.matchScore)
     
-    // Get top 3 whiskies and add appropriate images
-    const topWhiskies = rankedWhiskies.slice(0, 3).map((whisky: any) => {
-      // Use TheCocktailDB ingredient images based on whisky type
-      let ingredientName = 'whiskey'
-      
-      if (whisky.country === 'Scotland') {
-        ingredientName = 'scotch'
-      } else if (whisky.region === 'Kentucky') {
-        ingredientName = 'bourbon'
-      } else if (whisky.country === 'Ireland') {
-        ingredientName = 'whiskey'
-      } else if (whisky.country === 'Japan') {
-        ingredientName = 'whisky'
-      } else if (whisky.region === 'Tennessee') {
-        ingredientName = 'whiskey'
-      }
-      
-      // Use medium size (350x350) for good quality
-      whisky.imageUrl = `https://www.thecocktaildb.com/images/ingredients/${ingredientName}-medium.png`
-      
-      return whisky
-    })
+    // Get top 3 whiskies - no image needed anymore
+    const topWhiskies = rankedWhiskies.slice(0, 3)
     
     // Start all async operations in parallel
     const [aiComments, cocktails] = await Promise.all([
