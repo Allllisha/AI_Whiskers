@@ -1,0 +1,21 @@
+id,name,distillery,country,region,abv,price_hint,barrel,age,core_range,source_url,license
+MACA-001,The Macallan 12 Year Old,The Macallan,Scotland,Speyside,40,mid,ex-sherry,12,true,https://www.themacallan.com,official
+GLEN-001,Glenfiddich 12,Glenfiddich,Scotland,Speyside,40,low,ex-bourbon,12,true,https://www.glenfiddich.com,official
+LAGA-001,Lagavulin 16,Lagavulin,Scotland,Islay,43,high,ex-bourbon & ex-sherry,16,true,https://www.malts.com,official
+BOWM-001,Bowmore 12,Bowmore,Scotland,Islay,40,mid,ex-bourbon & ex-sherry,12,true,https://www.bowmore.com,official
+HIGH-001,Highland Park 12,Highland Park,Scotland,Islands,40,mid,ex-sherry,12,true,https://www.highlandparkwhisky.com,official
+GLEN-002,Glenlivet 12,The Glenlivet,Scotland,Speyside,40,low,ex-bourbon,12,true,https://www.theglenlivet.com,official
+JAMB-001,Jameson,Jameson,Ireland,Ireland,40,low,ex-bourbon,NAS,true,https://www.jamesonwhisky.com,official
+JACK-001,Jack Daniel's No.7,Jack Daniel's,USA,Tennessee,40,low,new charred oak,NAS,true,https://www.jackdaniels.com,official
+MAKE-001,Maker's Mark,Maker's Mark,USA,Kentucky,45,mid,new charred oak,NAS,true,https://www.makersmark.com,official
+WILD-001,Wild Turkey 101,Wild Turkey,USA,Kentucky,50.5,low,new charred oak,NAS,true,https://wildturkeybourbon.com,official
+YAMA-001,Yamazaki 12,Suntory,Japan,Japan,43,high,ex-bourbon & ex-sherry,12,true,https://www.suntory.co.jp,official
+HAKK-001,Hakushu 12,Suntory,Japan,Japan,43,high,ex-bourbon,12,true,https://www.suntory.co.jp,official
+NIKI-001,Nikka From The Barrel,Nikka,Japan,Japan,51.4,mid,ex-bourbon,NAS,true,https://www.nikka.com,official
+TALI-001,Talisker 10,Talisker,Scotland,Islands,45.8,mid,ex-bourbon,10,true,https://www.malts.com,official
+ARDB-001,Ardbeg 10,Ardbeg,Scotland,Islay,46,mid,ex-bourbon,10,true,https://www.ardbeg.com,official
+LAPP-001,Laphroaig 10,Laphroaig,Scotland,Islay,40,mid,ex-bourbon,10,true,https://www.laphroaig.com,official
+BALL-001,Balvenie 12 DoubleWood,Balvenie,Scotland,Speyside,40,mid,ex-bourbon & ex-sherry,12,true,https://www.thebalvenie.com,official
+CHIV-001,Chivas Regal 12,Chivas Brothers,Scotland,Scotland,40,mid,various,12,true,https://www.chivas.com,official
+JOHN-001,Johnnie Walker Black Label,Johnnie Walker,Scotland,Scotland,40,mid,various,12,true,https://www.johnniewalker.com,official
+FOUR-001,Four Roses Single Barrel,Four Roses,USA,Kentucky,50,mid,new charred oak,NAS,true,https://fourrosesbourbon.com,official

@@ -1,0 +1,142 @@
+[
+  {
+    "id": "MACA-001",
+    "distillery": "The Macallan",
+    "lat": 57.4847,
+    "lon": -3.2082,
+    "address": "Easter Elchies, Craigellachie, Speyside, Scotland"
+  },
+  {
+    "id": "GLEN-001",
+    "distillery": "Glenfiddich",
+    "lat": 57.4548,
+    "lon": -3.1289,
+    "address": "Dufftown, Keith, Speyside, Scotland"
+  },
+  {
+    "id": "LAGA-001",
+    "distillery": "Lagavulin",
+    "lat": 55.6356,
+    "lon": -6.1267,
+    "address": "Port Ellen, Isle of Islay, Scotland"
+  },
+  {
+    "id": "BOWM-001",
+    "distillery": "Bowmore",
+    "lat": 55.7561,
+    "lon": -6.2897,
+    "address": "School Street, Bowmore, Isle of Islay, Scotland"
+  },
+  {
+    "id": "HIGH-001",
+    "distillery": "Highland Park",
+    "lat": 58.9686,
+    "lon": -2.9522,
+    "address": "Holm Road, Kirkwall, Orkney, Scotland"
+  },
+  {
+    "id": "GLEN-002",
+    "distillery": "The Glenlivet",
+    "lat": 57.3433,
+    "lon": -3.3372,
+    "address": "Ballindalloch, Speyside, Scotland"
+  },
+  {
+    "id": "JAMB-001",
+    "distillery": "Jameson",
+    "lat": 51.9074,
+    "lon": -8.2904,
+    "address": "Midleton, County Cork, Ireland"
+  },
+  {
+    "id": "JACK-001",
+    "distillery": "Jack Daniel's",
+    "lat": 35.2839,
+    "lon": -86.3697,
+    "address": "280 Lynchburg Highway, Lynchburg, Tennessee, USA"
+  },
+  {
+    "id": "MAKE-001",
+    "distillery": "Maker's Mark",
+    "lat": 37.6489,
+    "lon": -85.3506,
+    "address": "3350 Burks Spring Road, Loretto, Kentucky, USA"
+  },
+  {
+    "id": "WILD-001",
+    "distillery": "Wild Turkey",
+    "lat": 37.9369,
+    "lon": -84.8661,
+    "address": "1417 Versailles Road, Lawrenceburg, Kentucky, USA"
+  },
+  {
+    "id": "YAMA-001",
+    "distillery": "Yamazaki",
+    "lat": 34.8925,
+    "lon": 135.6761,
+    "address": "5-2-1 Yamazaki, Shimamoto, Osaka, Japan"
+  },
+  {
+    "id": "HAKK-001",
+    "distillery": "Hakushu",
+    "lat": 35.8567,
+    "lon": 138.0319,
+    "address": "2913-1 Torihara, Hakushu, Hokuto, Yamanashi, Japan"
+  },
+  {
+    "id": "NIKI-001",
+    "distillery": "Nikka Yoichi",
+    "lat": 43.1519,
+    "lon": 140.7675,
+    "address": "7-6 Kurokawa, Yoichi, Hokkaido, Japan"
+  },
+  {
+    "id": "TALI-001",
+    "distillery": "Talisker",
+    "lat": 57.3028,
+    "lon": -6.3567,
+    "address": "Carbost, Isle of Skye, Scotland"
+  },
+  {
+    "id": "ARDB-001",
+    "distillery": "Ardbeg",
+    "lat": 55.6411,
+    "lon": -6.1086,
+    "address": "Port Ellen, Isle of Islay, Scotland"
+  },
+  {
+    "id": "LAPP-001",
+    "distillery": "Laphroaig",
+    "lat": 55.6297,
+    "lon": -6.1522,
+    "address": "Port Ellen, Isle of Islay, Scotland"
+  },
+  {
+    "id": "BALL-001",
+    "distillery": "Balvenie",
+    "lat": 57.4672,
+    "lon": -3.1281,
+    "address": "Dufftown, Keith, Speyside, Scotland"
+  },
+  {
+    "id": "CHIV-001",
+    "distillery": "Chivas Brothers (Strathisla)",
+    "lat": 57.6086,
+    "lon": -3.0903,
+    "address": "Seafield Avenue, Keith, Speyside, Scotland"
+  },
+  {
+    "id": "JOHN-001",
+    "distillery": "Johnnie Walker (Cardhu)",
+    "lat": 57.4711,
+    "lon": -3.3578,
+    "address": "Knockando, Aberlour, Speyside, Scotland"
+  },
+  {
+    "id": "FOUR-001",
+    "distillery": "Four Roses",
+    "lat": 37.9511,
+    "lon": -84.8661,
+    "address": "1224 Bonds Mill Road, Lawrenceburg, Kentucky, USA"
+  }
+]

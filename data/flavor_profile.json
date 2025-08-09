@@ -1,0 +1,102 @@
+[
+  {
+    "id": "MACA-001",
+    "vector": { "smoky": 0.1, "peaty": 0.0, "fruity": 0.8, "sweet": 0.9, "spicy": 0.6, "body": 0.8 },
+    "notes": ["dried fruits", "sherry", "spice", "orange", "chocolate"]
+  },
+  {
+    "id": "GLEN-001",
+    "vector": { "smoky": 0.0, "peaty": 0.0, "fruity": 0.9, "sweet": 0.7, "spicy": 0.3, "body": 0.4 },
+    "notes": ["pear", "apple", "oak", "vanilla", "honey"]
+  },
+  {
+    "id": "LAGA-001",
+    "vector": { "smoky": 0.9, "peaty": 0.9, "fruity": 0.3, "sweet": 0.4, "spicy": 0.7, "body": 0.9 },
+    "notes": ["peat smoke", "seaweed", "vanilla", "dried fruit", "iodine"]
+  },
+  {
+    "id": "BOWM-001",
+    "vector": { "smoky": 0.7, "peaty": 0.6, "fruity": 0.5, "sweet": 0.5, "spicy": 0.4, "body": 0.6 },
+    "notes": ["peat", "lemon", "honey", "dark chocolate", "sea salt"]
+  },
+  {
+    "id": "HIGH-001",
+    "vector": { "smoky": 0.5, "peaty": 0.3, "fruity": 0.6, "sweet": 0.7, "spicy": 0.5, "body": 0.7 },
+    "notes": ["heather honey", "peat smoke", "citrus", "vanilla", "spice"]
+  },
+  {
+    "id": "GLEN-002",
+    "vector": { "smoky": 0.0, "peaty": 0.0, "fruity": 0.8, "sweet": 0.6, "spicy": 0.2, "body": 0.3 },
+    "notes": ["citrus", "vanilla", "pineapple", "almond", "oak"]
+  },
+  {
+    "id": "JAMB-001",
+    "vector": { "smoky": 0.0, "peaty": 0.0, "fruity": 0.5, "sweet": 0.6, "spicy": 0.3, "body": 0.4 },
+    "notes": ["vanilla", "toasted wood", "spice", "honey", "smooth"]
+  },
+  {
+    "id": "JACK-001",
+    "vector": { "smoky": 0.3, "peaty": 0.0, "fruity": 0.4, "sweet": 0.7, "spicy": 0.4, "body": 0.5 },
+    "notes": ["banana", "caramel", "vanilla", "toasted oak", "smooth"]
+  },
+  {
+    "id": "MAKE-001",
+    "vector": { "smoky": 0.1, "peaty": 0.0, "fruity": 0.5, "sweet": 0.8, "spicy": 0.4, "body": 0.6 },
+    "notes": ["caramel", "vanilla", "wheat", "honey", "butterscotch"]
+  },
+  {
+    "id": "WILD-001",
+    "vector": { "smoky": 0.2, "peaty": 0.0, "fruity": 0.4, "sweet": 0.5, "spicy": 0.8, "body": 0.8 },
+    "notes": ["vanilla", "caramel", "pepper", "cinnamon", "orange peel"]
+  },
+  {
+    "id": "YAMA-001",
+    "vector": { "smoky": 0.2, "peaty": 0.1, "fruity": 0.8, "sweet": 0.7, "spicy": 0.5, "body": 0.7 },
+    "notes": ["peach", "pineapple", "grapefruit", "vanilla", "mizunara oak"]
+  },
+  {
+    "id": "HAKK-001",
+    "vector": { "smoky": 0.3, "peaty": 0.2, "fruity": 0.7, "sweet": 0.5, "spicy": 0.4, "body": 0.5 },
+    "notes": ["green apple", "mint", "cucumber", "herbs", "light smoke"]
+  },
+  {
+    "id": "NIKI-001",
+    "vector": { "smoky": 0.3, "peaty": 0.2, "fruity": 0.6, "sweet": 0.7, "spicy": 0.7, "body": 0.9 },
+    "notes": ["caramel", "vanilla", "orange", "spice", "oak"]
+  },
+  {
+    "id": "TALI-001",
+    "vector": { "smoky": 0.8, "peaty": 0.6, "fruity": 0.4, "sweet": 0.3, "spicy": 0.8, "body": 0.8 },
+    "notes": ["maritime", "pepper", "smoke", "dried fruit", "sea salt"]
+  },
+  {
+    "id": "ARDB-001",
+    "vector": { "smoky": 1.0, "peaty": 1.0, "fruity": 0.3, "sweet": 0.3, "spicy": 0.6, "body": 0.8 },
+    "notes": ["intense peat", "smoke", "lemon", "vanilla", "tar"]
+  },
+  {
+    "id": "LAPP-001",
+    "vector": { "smoky": 0.9, "peaty": 1.0, "fruity": 0.2, "sweet": 0.3, "spicy": 0.5, "body": 0.7 },
+    "notes": ["medicinal peat", "seaweed", "salt", "vanilla", "smoke"]
+  },
+  {
+    "id": "BALL-001",
+    "vector": { "smoky": 0.1, "peaty": 0.0, "fruity": 0.7, "sweet": 0.8, "spicy": 0.5, "body": 0.7 },
+    "notes": ["honey", "vanilla", "sherry", "cinnamon", "dried fruits"]
+  },
+  {
+    "id": "CHIV-001",
+    "vector": { "smoky": 0.1, "peaty": 0.0, "fruity": 0.6, "sweet": 0.7, "spicy": 0.4, "body": 0.5 },
+    "notes": ["honey", "apple", "vanilla", "herbs", "hazelnut"]
+  },
+  {
+    "id": "JOHN-001",
+    "vector": { "smoky": 0.4, "peaty": 0.3, "fruity": 0.5, "sweet": 0.6, "spicy": 0.6, "body": 0.6 },
+    "notes": ["vanilla", "smoke", "dried fruits", "spice", "toffee"]
+  },
+  {
+    "id": "FOUR-001",
+    "vector": { "smoky": 0.1, "peaty": 0.0, "fruity": 0.7, "sweet": 0.6, "spicy": 0.7, "body": 0.7 },
+    "notes": ["cherries", "oak", "vanilla", "caramel", "floral"]
+  }
+]
