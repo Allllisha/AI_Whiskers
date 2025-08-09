@@ -120,7 +120,7 @@ ABV: ${whisky.abv}%
     }
     
     // Fetch cocktails from TheCocktailDB based on selected whisky
-    let cocktails = []
+    let cocktails: any[] = []
     try {
       // 選ばれたウイスキーの種類を判定
       const selectedWhisky = topWhiskies[0]!
