@@ -86,26 +86,28 @@ export async function POST(request: NextRequest) {
       }
     }).sort((a: any, b: any) => b.matchScore - a.matchScore)
     
-    // Get top 3 whiskies and fetch their images
-    const topWhiskies = await Promise.all(
-      rankedWhiskies.slice(0, 3).map(async (whisky: any) => {
-        try {
-          const searchQuery = `${whisky.name} whisky bottle`
-          const response = await fetch(
-            `https://pixabay.com/api/?key=${process.env.PIXABAY_API_KEY}&q=${encodeURIComponent(searchQuery)}&image_type=photo&orientation=horizontal&per_page=3`
-          )
-          if (response.ok) {
-            const data = await response.json()
-            if (data.hits && data.hits.length > 0) {
-              whisky.imageUrl = data.hits[0].webformatURL
-            }
-          }
-        } catch (error) {
-          console.error('Failed to fetch image:', error)
-        }
-        return whisky
-      })
-    )
+    // Get top 3 whiskies and add appropriate images
+    const topWhiskies = rankedWhiskies.slice(0, 3).map((whisky: any) => {
+      // Use TheCocktailDB ingredient images based on whisky type
+      let ingredientName = 'whiskey'
+      
+      if (whisky.country === 'Scotland') {
+        ingredientName = 'scotch'
+      } else if (whisky.region === 'Kentucky') {
+        ingredientName = 'bourbon'
+      } else if (whisky.country === 'Ireland') {
+        ingredientName = 'whiskey'
+      } else if (whisky.country === 'Japan') {
+        ingredientName = 'whisky'
+      } else if (whisky.region === 'Tennessee') {
+        ingredientName = 'whiskey'
+      }
+      
+      // Use medium size (350x350) for good quality
+      whisky.imageUrl = `https://www.thecocktaildb.com/images/ingredients/${ingredientName}-medium.png`
+      
+      return whisky
+    })
     
     // Start all async operations in parallel
     const [aiComments, cocktails] = await Promise.all([
