@@ -61,8 +61,19 @@ export async function POST(request: NextRequest) {
       userPreferences.peaty += 0.3
     }
     
+    // Filter by budget first
+    const budgetFilteredWhiskies = whiskies.filter((whisky: any) => {
+      if (answers.budget === '〜3000円') {
+        return whisky.price_hint === 'low'
+      } else if (answers.budget === '3000〜6000円') {
+        return whisky.price_hint === 'low' || whisky.price_hint === 'mid'
+      }
+      // 6000円以上 - all price ranges
+      return true
+    })
+    
     // Calculate similarity scores and rank whiskies
-    const rankedWhiskies = whiskies.map((whisky: any) => {
+    const rankedWhiskies = budgetFilteredWhiskies.map((whisky: any) => {
       const flavor = flavorMap.get(whisky.id)
       if (!flavor) return { ...whisky, matchScore: 0 }
       
